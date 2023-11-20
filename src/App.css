@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+  }
+  
+  :root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  }
+  
+  .App {
+    max-width: 1000px;
+    margin: 50px auto;
+  }
+  
+  nav {
+    height: 80px;
+    background-color: white;
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+  }
+  
+  .nav-right {
+    display: flex;
+    gap: 2rem;
+  }
+  
+  nav a {
+    color: #333;
+    font-size: 1rem;
+    padding: 1rem;
+  }
+  
+  nav a:hover {
+    color: blueviolet;
+    text-decoration: underline;
+  }
+  
+  nav a.active {
+    color: blueviolet;
+  }
+  
+  /* .card {
+    border: 1px solid #eee;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.05);
+    padding: 10px;
+    max-width: 350px;
+    margin: 20px auto;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+  } */
+  
+  
+  /* PAGE NOT FOUND */
+  
+  .pageNotFound-container {
+    text-align: center;
+  }
+  
+  .pageNotFound-container h1 {
+    margin-bottom: 2rem;
+  }
+  
+  .pageNotFound-container a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 8px;
+    border: 2px solid #333;
+    background-color: #fff;
+  }
+  
+  .pageNotFound-container a:hover {
+    background: #333;
+    color: #fff;
+  }
+  

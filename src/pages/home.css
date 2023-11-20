@@ -1,0 +1,29 @@
+
+.cards{
+    display: flex; 
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.cards .card {
+    width: 23%;
+    padding: 1rem;
+    background-color: white;
+    border: 1px solid blueviolet;
+    border-radius: 8px;
+    margin: 0 auto;
+}
+
+.cards .card img{
+    width: 50%;
+    height: 120px;
+}
+
+.card_photo{
+    text-align: center;
+}
+
+p span{
+   font-weight: bold;
+}
